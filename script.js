@@ -1,6 +1,6 @@
 function insert(num) {
     var numero= document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML=num+numero
+    document.getElementById('resultado').innerHTML=numero+num
 }
 function clean() {
 document.getElementById('resultado').innerHTML=" "
@@ -17,4 +17,4 @@ function calcular() {
     } else{
         document.getElementById('resultado').innerHTML="vazio"
     }
-    }
+}
